@@ -30,7 +30,7 @@ public class BankAccount {
     public BankAccount(final String name, final BankAccountType accountCategory) {
         ownerName = name;
         accountType = accountCategory;
-        accounts++;
+        Bank.totalAccounts++;
 
     }
     public static int getAccounts() {
